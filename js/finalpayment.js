@@ -1,5 +1,5 @@
 //document.querySelector("#payment_btn").addEventListener("click",razorpay);
-var razkey="rzp_live_8uKzQyV7bbDQXl";
+var razkey="rzp_live_DASRJZO07nKORA";
 
 
 function razorpay()
