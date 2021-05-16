@@ -10,7 +10,7 @@ function myFunction()
 		}
 	}
 
-var prodpricelisting = [7000,7000,2500,7000,7500,2500,7000,7500,10500,7000,7200,7100];
+var prodpricelisting = [1,7000,2500,7000,7500,2500,7000,7500,10500,7000,7200,7100];
 
 function navprod1(id1, id2)
 {

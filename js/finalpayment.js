@@ -47,7 +47,7 @@ function razorpay()
 		"handler": function (response)
 		{
 		if (typeof response.razorpay_payment_id == 'undefined' ||  response.razorpay_payment_id < 1) 
-		{location.replace("https://uniquecreationslive.com/contact.html")}
+		{location.replace("https://uniquecreationslive.com/Error.html")}
 		else{location.replace("https://uniquecreationslive.com/OrderConfirmation.html")}
 		},		
 		"prefill": {
