@@ -44,7 +44,12 @@ function razorpay()
 		"name": "Uniquecreations",
 		"description": "Product purchase",
 		"image": "https://uniquecreationslive.com/images/logo/logo.png",
-				
+		"handler": function (response)
+		{
+		if (typeof response.razorpay_payment_id == 'undefined' ||  response.razorpay_payment_id < 1) 
+		{location.replace("https://uniquecreationslive.com/contact.html")}
+		else{location.replace("https://uniquecreationslive.com/OrderConfirmation.html")}
+		},		
 		"prefill": {
 			"name": customer_name,
 			"email": customer_email,
