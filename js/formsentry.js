@@ -3,6 +3,7 @@ function sendformdetails(productlist)
 	customer_name_detail = document.getElementById("username").value;
 	customer_email_detail = document.getElementById("email").value;
 	customer_phone_detail = document.getElementById("phone").value;
+	customer_address_detail = document.getElementById("address").value;
 	var total_price_detail = document.querySelector("#ptotalvalue").innerText;
 	
 	var finalproduct_val = 'ProductName | Product Code | Product Price | Quantity | Total Price \n';
@@ -24,6 +25,7 @@ function sendformdetails(productlist)
 	  'entry.553869678': customer_email_detail,
 	  'entry.1297809527': customer_name_detail,
 	  'entry.463615446': customer_phone_detail,
+	  'entry.2010102669': customer_address_detail,
 	  'entry.211065904': finalproduct_val
 	  //'entry.407126866': $('#form-email').val()
 	};

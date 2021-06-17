@@ -158,10 +158,11 @@ function checkvalue()
 	var usernameVal = document.getElementById("username").value;
 	var emailVal = document.getElementById("email").value;
 	var numberVal = document.getElementById("phone").value;
+	var addressVal = document.getElementById("address").value;
 	console.log(usernameVal);
 	console.log(emailVal);
 	console.log(numberVal);
-	if(usernameVal == "" || emailVal == "" || numberVal == "")
+	if(usernameVal == "" || emailVal == "" || numberVal == "" || addressVal == "")
 		{
 			document.getElementById("errorId").style.display = "block";
 		}
