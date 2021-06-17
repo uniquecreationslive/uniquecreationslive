@@ -75,6 +75,14 @@
 							<input type="text" class="getvalform" id="email" name="email" required></input>
 						</div>	
 							<br><br>
+						
+						<div class="column50 c50left" style="text-align:right">
+							<span class="valtext">ADDRESS</span>
+						</div>
+						<div class="column50 c50right">
+							<input type="text" class="getvalform" id="address" name="address" required></input>
+						</div>	
+							<br><br>
 							
 						<div class="column50 c50left" style="text-align:right">	
 							<span class="valtext">NUMBER</span>
@@ -415,7 +423,7 @@
 				<button class="incbutton" onclick="qtyinc('prodqty12','prodprice12',12);">+</button>
 				
 				<br><br>
-				<button class="cartbutton" onclick="addtocart('productname12','productcode12',12,'prodqty12','prodprice12');itemadd();">Add To Cart 🛒</button>
+				<button class="cartbutton" style="background-color:grey" onclick="addtocart('productname12','productcode12',12,'prodqty12','prodprice12');itemadd();" disabled>Add To Cart 🛒</button>
 				<br><br>
 				
 				<img src="images/products/border.png" width="100%" height="50%"></img>
